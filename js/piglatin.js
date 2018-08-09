@@ -1,3 +1,5 @@
+var piglatin = prompt("Enter a word")
+var result = translate(piglatin)
 var translate = function(word) {
     var array = word.split('');
     var vowels = ['a','e','i','o','u'];
@@ -16,3 +18,4 @@ var translate = function(word) {
         }
     }
 }
+alert(result)
